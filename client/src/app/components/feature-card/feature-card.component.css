@@ -1,0 +1,8 @@
+:host { 
+  display: contents; 
+}
+@media(max-width: 767px) {
+  .feature-card-feature-card {
+    flex-direction: row;
+  }
+}

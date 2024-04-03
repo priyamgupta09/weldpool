@@ -1,0 +1,25 @@
+:host { 
+  display: contents; 
+}
+.app-component-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-component-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+@media(max-width: 767px) {
+  .app-component-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .app-component-container {
+    flex-direction: column;
+  }
+}
